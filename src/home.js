@@ -2,18 +2,12 @@ export function loadHome() {
   const content = document.getElementById("content");
   content.innerHTML = "";
 
-  const home = document.createElement("div");
-  home.classList.add("home");
-
   const title = document.createElement("h1");
-  title.textContent = "Welcome to Delicious Bites";
+  title.textContent = "Welcome to Our Arabic Restaurant";
 
   const description = document.createElement("p");
-  description.textContent =
-    "Experience the finest cuisine in town. Our chefs prepare each dish with passion and the freshest ingredients.";
+  description.textContent = "Experience the finest Arabic cuisine with us!";
 
-  home.appendChild(title);
-  home.appendChild(description);
-
-  content.appendChild(home);
+  content.appendChild(title);
+  content.appendChild(description);
 }
